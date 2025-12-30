@@ -139,7 +139,7 @@ function restartGame() {
         y: Math.floor(Math.random() * columns)
     };
     score =0;
-    time = "00-00";
+    time = "00:00";
     scoreElem.textContent = score;
     highscoreElem.textContent = highScore;
 
